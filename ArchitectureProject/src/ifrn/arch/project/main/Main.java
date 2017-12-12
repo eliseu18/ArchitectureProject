@@ -14,7 +14,6 @@ public class Main {
 		boolean outOfMemory = false;		
 		do {
 			input = sc.nextLine();
-			System.out.println(input);
 			outOfMemory = memory.push(input);
 		}while(!outOfMemory || !input.equals("FINISHED"));
 		
